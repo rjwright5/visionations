@@ -14,30 +14,53 @@
 }
 
 body {
-	background-color: black;
-}
-
-.sidenav1 {
-	height: 78%; /* Full-height: remove this if you want "auto" height */
-	width: 40%; /* Set the width of the sidebar */
-	position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-	z-index: 1; /* Stay on top */
-	top: 1; /* Stay at the top */
-	left: 0;
-	background-color: #111; /* Black */
-	overflow-x: hidden; /* Disable horizontal scroll */
-	padding-top: 30px;
 	background-color: white;
 }
+
+
+
+main {
+/*  box-sizing: box;*/
+ 	background-color: white;
+}
+
+.column {
+ 	float: left;
+}
+
+.left {
+	background-color: white;
+	width: 40%;
+}
+
+.right {
+	background-color: white;
+	width: 60%;
+}
+
+.row {
+	
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+
 
 .yourVision {
 	display: block;
   	margin-left: auto;
   	margin-right: auto;
   	height: 25%;
-  	width: 50%;
+  	width: 30%;
   	animation: backInLeft;
   	animation-duration: 1s;
+  	background-color: white;
 
 }
 
@@ -46,9 +69,10 @@ body {
   	margin-left: auto;
   	margin-right: auto;
   	height: 25%;
-  	width: 50%;
+  	width: 30%;
   	animation: backInRight;
   	animation-duration: 1.5s;
+  	background-color: white;
 
 }
 
@@ -56,28 +80,18 @@ body {
 	display: block;
   	margin-left: auto;
   	margin-right: auto;
-  	height: 40%;
+  	height: 35%;
   	width: 100%;
   	animation: backInUp;
   	animation-duration: 2s;
+  	background-color: white;
 }
 
-.sidenav2 {
-	height: 78%; /* Full-height: remove this if you want "auto" height */
-	width: 59%; /* Set the width of the sidebar */
-	position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-	z-index: 1; /* Stay on top */
-	top: 1; /* Stay at the top */
-	right: 0;
-	background-color: #111; /* Black */
-	overflow-x: hidden; /* Disable horizontal scroll */
-	padding-top: 20px;
-	padding-left: 20px;
-	padding-left: 20px;
-	background-color: white;
-}
+
+
 
 .missionStatement {
+	background-color: white;
 	font-family: 'Shadows Into Light';
 	font-size: 4rem;
 	text-align: center;
@@ -104,12 +118,14 @@ body {
  	border-color: black;
  	margin-top: 3%;
  	margin-bottom: 0%;
+ 	margin-left: 2%;
  	margin-right: 2%;
 }
 
 .buttonHeader {
 	font-family: 'Shadows Into Light';
 	font-size: 2rem;
+	margin-top: 3%;
 }
 
 .buttonContainer {
@@ -122,7 +138,7 @@ body {
 	font-weight: 3rem;
 	border-radius: 300px;
 	text-transform: uppercase;
-
+	margin-bottom: 20%;
 }
 
 .btn-primary {
@@ -161,6 +177,11 @@ footer {
 	width: 25px;
 	margin-bottom: 5px;
 }
+
+
+
+
+
 
 
 
