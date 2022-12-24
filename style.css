@@ -57,7 +57,7 @@ main {
   	margin-left: auto;
   	margin-right: auto;
   	height: 25%;
-  	width: 30%;
+  	width: 50%;
   	animation: backInLeft;
   	animation-duration: 1s;
   	background-color: white;
@@ -69,7 +69,7 @@ main {
   	margin-left: auto;
   	margin-right: auto;
   	height: 25%;
-  	width: 30%;
+  	width: 50%;
   	animation: backInRight;
   	animation-duration: 1.5s;
   	background-color: white;
@@ -80,7 +80,7 @@ main {
 	display: block;
   	margin-left: auto;
   	margin-right: auto;
-  	height: 35%;
+  	height: 37%;
   	width: 100%;
   	animation: backInUp;
   	animation-duration: 2s;
@@ -177,15 +177,3 @@ footer {
 	width: 25px;
 	margin-bottom: 5px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
